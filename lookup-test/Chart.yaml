@@ -1,0 +1,109 @@
+apiVersion: v2
+name: lookup-test
+version: 1.0.0
+description: A Helm chart for creating a Kubernetes secret using the lookup function
+
+# Specify the chart's dependencies, if any
+dependencies:
+  # Example dependency
+  # - name: example-dependency
+  #   version: 1.0.0
+  #   repository: https://example.com/charts
+
+# Specify the chart's maintainers, if any
+maintainers:
+  # - name: Maintainer Name
+  #   email: maintainer@example.com
+
+# Specify the chart's sources, if any
+sources:
+  # - https://example.com/source/url
+
+# Specify the chart's keywords, if any
+keywords:
+  # - keyword1
+  # - keyword2
+
+# Specify the chart's icon, if any
+# icon: https://example.com/icon.png
+
+# Specify the chart's home, if any
+# home: https://example.com/chart/home
+
+# Specify the chart's sources, if any
+# sources:
+#   - name: Source Name
+#     url: https://example.com/source/url
+
+# Specify the chart's dependencies, if any
+# dependencies:
+#   - name: dependency1
+#     version: 1.0.0
+#     repository: https://example.com/charts
+
+# Specify the chart's maintainers, if any
+# maintainers:
+#   - name: Maintainer Name
+#     email: maintainer@example.com
+
+# Specify the chart's annotations, if any
+# annotations:
+#   example: annotation
+
+# Specify the chart's labels, if any
+# labels:
+#   example: label
+
+# Specify the chart's appVersion, if any
+# appVersion: 1.0.0
+
+# Specify the chart's deprecated status, if any
+# deprecated: false
+
+# Specify the chart's tillerVersion, if any
+# tillerVersion: 2.14.0
+
+# Specify the chart's type, if any
+# type: application
+
+# Specify the chart's condition, if any
+# condition: condition
+
+# Specify the chart's dependencies, if any
+# dependencies:
+#   - name: dependency1
+#     version: 1.0.0
+#     repository: https://example.com/charts
+
+# Specify the chart's sources, if any
+# sources:
+#   - name: Source Name
+#     url: https://example.com/source/url
+
+# Specify the chart's maintainers, if any
+# maintainers:
+#   - name: Maintainer Name
+#     email: maintainer@example.com
+
+# Specify the chart's annotations, if any
+# annotations:
+#   example: annotation
+
+# Specify the chart's labels, if any
+# labels:
+#   example: label
+
+# Specify the chart's appVersion, if any
+# appVersion: 1.0.0
+
+# Specify the chart's deprecated status, if any
+# deprecated: false
+
+# Specify the chart's tillerVersion, if any
+# tillerVersion: 2.14.0
+
+# Specify the chart's type, if any
+# type: application
+
+# Specify the chart's condition, if any
+# condition: condition

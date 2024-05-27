@@ -1,0 +1,6 @@
+# Default values for lookup-test.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# Specify the name of the secret
+secretName: my-secret
