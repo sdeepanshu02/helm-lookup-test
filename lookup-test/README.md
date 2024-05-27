@@ -1,5 +1,5 @@
 # lookup-test
-
+update
 This is a Helm chart named `lookup-test` that uses the Helm lookup function before creating a Kubernetes secret. The chart creates the Kubernetes secret only if it does not already exist in the cluster.
 
 ## Chart Structure
