@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stable-config
+data:
+  name: "stable-config"
+  {{- if $.Values.do_lookup }}
+  value: {{ (lookup "v1" "ConfigMap" "a000005" "stable-config").data.value }}
+  {{- else }}
+  value: {{ $.Values.value }}
+  {{- end }}
+  

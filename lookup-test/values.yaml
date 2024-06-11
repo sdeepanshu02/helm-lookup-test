@@ -3,4 +3,5 @@
 # Declare variables to be passed into your templates.
 
 # Specify the name of the secret
-secretName: my-secret
+do_lookup: false
+value: foo-bar

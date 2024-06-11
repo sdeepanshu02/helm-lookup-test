@@ -1,0 +1,10 @@
+{{- if not ($.Values.do_lookup) }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: canary-config
+data:
+  name: "canary-config"
+  value: {{ $.Values.value }}
+{{- end }}
+  
