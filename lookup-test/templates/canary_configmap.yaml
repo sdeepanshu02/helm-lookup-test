@@ -1,4 +1,4 @@
-{{- if not ($.Values.do_lookup) }}
+{{- if ($.Values.do_lookup) }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
