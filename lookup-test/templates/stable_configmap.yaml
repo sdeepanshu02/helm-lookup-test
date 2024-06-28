@@ -11,4 +11,5 @@ data:
   {{- end }}
   release_name: {{ .Release.Name }}
   release_namespace: {{ .Release.Namespace }}
+  release_service: {{ .Release.Service }}
   
