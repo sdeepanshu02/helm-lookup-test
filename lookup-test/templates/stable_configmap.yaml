@@ -9,4 +9,6 @@ data:
   {{- else }}
   value: {{ $.Values.value }}
   {{- end }}
+  release_name: {{ .Release.Name }}
+  release_namespace: {{ .Release.Namespace }}
   
